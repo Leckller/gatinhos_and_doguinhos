@@ -11,3 +11,18 @@ botoes[0].addEventListener('click', (e) => {
       console.log('new cat!')
     })
 });
+
+botoes[1].addEventListener('click', (e) => {
+  fetch("https://dog.ceo/api/breeds/image/random")
+    .then((res) => res.json())
+    .then((res) => {
+      imgHTML.src = res.message;
+      console.log('new dog!')
+    })
+});
+
+botoes[2].addEventListener('click', (e) => {
+  const acoes = []
+
+  Promise.race(acoes)
+});

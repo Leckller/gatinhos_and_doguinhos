@@ -48,6 +48,8 @@ main div button:active {
 main img {
   width: 30%;
   height: 80%;
-  padding-top: 4vh;
+  margin-top: 4vh;
   border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.5);
 }

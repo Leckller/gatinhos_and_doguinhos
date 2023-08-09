@@ -44,3 +44,10 @@ main div button {
 main div button:active {
   padding: .8vw;
 }
+
+main img {
+  width: 30%;
+  height: 80%;
+  padding-top: 4vh;
+  border-radius: 10px;
+}
